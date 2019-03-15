@@ -46,7 +46,7 @@ profile a:visited{
 
 .sidebar {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 130px; /* Set the width of the sidebar */
+  width: 140px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 8.7vw; /* Stay at the top */
@@ -81,6 +81,7 @@ profile a:visited{
 	border-collapse: collapse;
 	width: 80%;
 	margin: auto;
+	margin-top: 5%;
 }
 th {
   padding: 15px;
