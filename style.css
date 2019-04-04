@@ -82,16 +82,26 @@ profile a:visited{
 	width: 80%;
 	margin: auto;
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 th {
   padding: 15px;
   font-size: 18px;
-  border: 2px solid black;
+  border: 4px solid black;
+}
+.tableTitle{
+	text-align: center;
+	font-size: 32px;
+	background-color: #0076b6;
+ 	color: white;
 }
 td{
 	padding: 8px;
 	text-align: left;
-	border: 1px solid black;
+	border: 2px solid black;
+}
+td:nth-child(2n+1){
+	background-color: #DDD;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
